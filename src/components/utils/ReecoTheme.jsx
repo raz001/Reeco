@@ -1,14 +1,16 @@
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
-const theme = createTheme({
-  palette: {
-    primary: {
-        main: '#0F9D58',
-    },
-    secondary: {
-        main: '#4285F4',
-    },
+export const palette = {
+  primary: {
+      main: '#388E3C',
   },
+  secondary: {
+      main: '#4285F4',
+  },
+};
+
+const theme = createTheme({
+  palette,
 });
 
 export default function ReecoTheme({ children }) {
