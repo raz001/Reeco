@@ -1,11 +1,12 @@
 import './App.css';
+import NavBar from './components/navbar/Navbar';
+import ReecoTheme from './components/utils/ReecoTheme';
 
 function App() {
   return (
-    <div className="App">
-    reeco
-      
-    </div>
+    <ReecoTheme>
+      <NavBar />
+    </ReecoTheme>
   );
 }
 
