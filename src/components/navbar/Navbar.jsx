@@ -31,7 +31,7 @@ export default function Navbar() {
                     <Link>Analytics</Link>
                 </Stack>
                 <Stack direction={'row'} spacing={5} alignItems={'center'}>
-                    <Cart cartItemCount={12} />
+                    <Cart cartItemCount={2} />
                     <ProfileMenu />
                 </Stack>
             </Stack>
