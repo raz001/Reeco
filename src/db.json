@@ -3,7 +3,7 @@
         {
             "productName": "Chicken 65 with curry",
             "brand": "Hormel black Labelmany",
-            "status": "Approved",
+            "status": "pending",
             "price": 9999
         },
         {
@@ -15,7 +15,7 @@
         {
             "productName": "Mac & cheese (with an option to add bacon)",
             "brand": "Mac & cheese black",
-            "status": "Missing",
+            "status": "pending",
             "price": 239
         },
         {

@@ -30,7 +30,7 @@ export default function OrderInfo() {
                 </Stack>
                 <Divider orientation={'vertical'} flexItem />
                 <Stack spacing={1}>
-                    <Caption>Shipping data</Caption>
+                    <Caption>Shipping date</Caption>
                     <h4 variant={'h6'}>Thu, Feb 10</h4>
                 </Stack>
                 <Divider orientation={'vertical'} flexItem />
