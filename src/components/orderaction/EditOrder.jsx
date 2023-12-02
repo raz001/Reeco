@@ -10,7 +10,7 @@ import Button from '../utils/Button';
 import AddIcon from '@mui/icons-material/Add';
 
 export default function EditOrder({ item }) {
-    console.log(item)
+    //console.log(item)
     const [open, setOpen] = React.useState(false);
 
     const handleClickOpen = () => {

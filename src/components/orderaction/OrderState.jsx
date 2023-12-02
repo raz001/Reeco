@@ -9,7 +9,7 @@ export default function OrderState({ item }) {
     let [orderState, setOrderState] = React.useState(item.row.status);
     let chipColor = 'warning';
 
-    if (orderState === 'Pending') {
+    if (orderState === 'pending') {
         chipColor = 'warning';
     } else if (orderState === 'Approved') {
         chipColor = 'primary';
